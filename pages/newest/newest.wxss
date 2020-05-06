@@ -1,0 +1,11 @@
+.searchdom{
+  position: absolute;
+}
+.tabcol .van-col{
+  text-align: center;
+  line-height: 30px;
+  padding: 0 40rpx 0 40rpx;
+}
+.forborder .van-col view{
+  border-bottom: solid #3399cc 1px;
+}

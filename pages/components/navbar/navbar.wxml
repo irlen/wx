@@ -1,0 +1,6 @@
+<van-tabbar active="{{ active }}" >
+  <van-tabbar-item bindtap="changeTab" data-name="home" name="home" icon="home-o">首页</van-tabbar-item>
+  <van-tabbar-item bindtap="changeTab" data-name="search" name="search" icon="search">搜索</van-tabbar-item>
+  <van-tabbar-item bindtap="changeTab" data-name="show" name="show" icon="friends-o">晒晒</van-tabbar-item>
+  <van-tabbar-item bindtap="changeTab" data-name="note" name="note" icon="setting-o">留言</van-tabbar-item>
+</van-tabbar>

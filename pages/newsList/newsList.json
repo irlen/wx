@@ -1,0 +1,7 @@
+{
+  "usingComponents":{
+    "van-button": "@vant/weapp/button/index"
+  },
+  "pageName": "新消息",
+  "navigationBarTitleText": "每日推荐"
+}

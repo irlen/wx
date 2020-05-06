@@ -1,0 +1,21 @@
+{
+  "usingComponents": {
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index"
+  },
+  "pages":[
+    "pages/index/index",
+    "pages/newest/newest",
+    "pages/newsList/newsList",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "何小亲的私家折扣",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50
+  },
+  "sitemapLocation": "sitemap.json"
+}

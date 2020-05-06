@@ -1,0 +1,26 @@
+<view style="padding:20rpx;">
+  <van-sticky offset-top="{{ 10 }}">
+    <van-search placeholder="搜索" class="searchdom" shape="round" style="top:{{searchStyle.top}}px; width:{{searchStyle.width}}px">
+    </van-search>
+  </van-sticky>
+  
+  <view style="padding-top: 60px;">
+    <van-sticky offset-top="{{ 70 }}">
+      <view>
+        <van-row>
+          <van-col span="12" class="tabcol {{active=='product'?'forborder':'nothing'}}">
+            <view bindtap="tabChange" data-name="product">好物</view>
+          </van-col>
+          <van-col span="12" class="tabcol {{active=='talk'?'forborder':'nothing'}}">
+            <view bindtap="tabChange" data-name="talk">神侃</view>
+          </van-col>
+        </van-row>
+      </view>
+    </van-sticky>
+    <view style="height:1000px;">
+
+    </view>
+  </view>
+  
+  <navbar></navbar>
+</view>
